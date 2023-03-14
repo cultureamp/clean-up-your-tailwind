@@ -4,7 +4,7 @@ import { MyComponent } from "./components/MyComponent";
 
 function App() {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-red-500 flex-column">
+    <div className="flex justify-center items-center min-h-screen font-sans flex-column">
       <MyComponent />
     </div>
   );
