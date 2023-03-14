@@ -1,7 +1,11 @@
-export const MyComponent = () => {
+export type MyComponentProps = {
+  text: string;
+};
+
+export const MyComponent = ({ text }: MyComponentProps) => {
   return (
     <div>
-      <p>Hello World</p>
+      <p>{text}</p>
     </div>
   );
 };
