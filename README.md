@@ -1,13 +1,5 @@
-# Base repo
+Examples of different ways to clean up long Tailwind utility classes.
 
-## Set up with:
+Branches are ordered by number. Checkout different branches to see the effect.
 
-- Typescript
-- Tailwind
-- Storybook
-
-For spinning up playground repos to test new ideas quickly.
-
-- Pull it
-- Yarn it
-- Have fun with it
+1. No cleaning applied
