@@ -1,5 +1,9 @@
 Examples of different ways to clean up long Tailwind utility classes.
 
-Branches are ordered by number. Checkout different branches to see the effect.
+View the commits to see the different stages of clean up
 
 1. No cleaning applied
+
+2. [Prettier plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
+
+- Read about sorting method [here](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
