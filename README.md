@@ -7,3 +7,5 @@ View the commits to see the different stages of clean up
 2. [Prettier plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 
 - Read about sorting method [here](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
+
+3. [HTML Extraction](https://tailwindcss.com/docs/reusing-styles#extracting-components-and-partials)
