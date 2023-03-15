@@ -1,3 +1,5 @@
+import classnames from "classnames";
+
 const buttonStyles = {
   blue: "bg-blue-100 border-blue-700 hover:bg-blue-200",
   green: "bg-green-100 border-green-700 hover:bg-green-200",
@@ -11,10 +13,11 @@ export type ButtonProps = {
 
 export const Button = ({ label, color }: ButtonProps) => (
   <button
-    className={
-      "p-12 m-12 border-solid border-w-default rounded-default focus:outline-gray-500 focus:outline-dashed focus:outline-offset-2 " +
+    className={classnames(
+      "p-12 m-12 border-solid border-w-default rounded-default",
+      "focus:outline-gray-500 focus:outline-dashed focus:outline-offset-2",
       buttonStyles[color]
-    }
+    )}
   >
     {label}
   </button>
